@@ -8,8 +8,9 @@ script:
 deploy:
   provider: pages
   local_dir: dist
-  skip_cleanup: true
+  cleanup: true
   github_token: $GITHUB_TOKEN
+  keep_history: true
   target_branch: master
   on:
     branch: development
