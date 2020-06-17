@@ -3,15 +3,12 @@
     <div class="header">
       <img src="./assets/logo.png">
     </div>
-    <div class="buttons"></div>
   </div>
 </template>
 
 <script>
   export default {
     name: 'app',
-    components: {
-      
-    }
+    components: {}
   }
 </script>
