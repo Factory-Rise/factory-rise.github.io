@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <p>welcome</p>
-    <img src="./assets/logo.png">
+    <div class="header">
+      <img src="./assets/logo.png">
+    </div>
+    <div class="buttons"></div>
   </div>
 </template>
 
