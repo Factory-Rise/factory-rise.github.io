@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="header">
-      <img src="./assets/logo.png">
+      <img src="../public/assets/logo.png">
     </div>
 
     <div class="dynamicPage">
