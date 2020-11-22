@@ -5,6 +5,7 @@ node_js:
 cache:
   npm: false
 script:
+  - npm i -g npm@6.14.8
   - npm run build
 deploy:
   provider: pages
