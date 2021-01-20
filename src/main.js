@@ -3,9 +3,9 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
-new Vue({
+let vm = new Vue({
   el: '#app',
   render: (h) => { 
     return h(App) 
-  },
+  }
 });
