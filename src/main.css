@@ -4,33 +4,49 @@ html {
 
 .header img {
     display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 85%;
 }
 
 .container {
-    height: 500px;
+    height: 100%;
     width: 90%;
     background-image: url('~@/../public/assets/info-layer.png');
     background-size: 100% 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
     margin: auto;
 }
 
+.page {
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 .dynamicPage {
-    margin-left: 5%;
+    background-image: url('~@/../public/assets/info-layer.png');
+    background-size: 100% 100%;
+    width: 95%;
+    margin: auto;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
+.select {
+    background-image: url('~@/../public/assets/info-layer.png');
+    background-size: 100% 100%;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .btn {
-    padding: 2px 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 80px;
 }
