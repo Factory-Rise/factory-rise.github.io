@@ -2,6 +2,15 @@ html {
     background-color: #5E6262;
 }
 
+img {
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 .header img {
     display: block;
     margin-top: 50px;
@@ -46,6 +55,7 @@ html {
 }
 
 .btn {
+    cursor: pointer;
     padding-top: 20px;
     padding-bottom: 20px;
     height: 80px;
